@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Megi-AlimucajBankApplication.io/static/css/main.b39867f4.css",
+    "main.js": "/Megi-AlimucajBankApplication.io/static/js/main.e408d91e.js",
+    "static/js/453.bb2d1453.chunk.js": "/Megi-AlimucajBankApplication.io/static/js/453.bb2d1453.chunk.js",
+    "index.html": "/Megi-AlimucajBankApplication.io/index.html",
+    "main.b39867f4.css.map": "/Megi-AlimucajBankApplication.io/static/css/main.b39867f4.css.map",
+    "main.e408d91e.js.map": "/Megi-AlimucajBankApplication.io/static/js/main.e408d91e.js.map",
+    "453.bb2d1453.chunk.js.map": "/Megi-AlimucajBankApplication.io/static/js/453.bb2d1453.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b39867f4.css",
+    "static/js/main.e408d91e.js"
+  ]
+}
