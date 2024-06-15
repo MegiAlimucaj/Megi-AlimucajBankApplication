@@ -1,40 +1,48 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-# DESCRIPTION!!!
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-This is a bad bank application because it is lacking security. 
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-The application is simple. 
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
 
-# HOME PAGE 
 
-The home page shows a simple message that welcomes you to the bank application. 
-
-# CREATE ACCOUNT 
-
-This page gives you the opportunity to create an account in bad bank by entering a name, email and creating a password. 
-
-<!-- After creating your account you can check all your data on the ALL DATA page -->
-
-# DEPOSIT
-
-This page allows you to desposit money on your account. After entering the $$ amount you can make the deposit and check your balance on ALL DATA page.
-
-# WITHDRAW 
-
-This page allows you to withdraw money from your account. 
-
-Note that if your balance is zero it shows you an error message that your request is an overdraft, and it suggests you to deposit money. 
-
-After all the trasaction you can recheck your balance at anytime to ALL DATA page. 
-
-# CODE!!!
-
-This application is created through React. 
-
-Make sure that you have npm installed. 
-
-All React elements are located under src file. 
 
 
 
