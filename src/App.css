@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+root {
+    background-color: #f4d5e8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+    width: 200px;
+    height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+    display: flex;
+    flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+    width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-header {
+    background-color: #db8db7;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.card-body {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+
+.all-data-card {
+    width: 100%;
+}
+
+h5.card-title,
+label.field {
+    color: #1a202a;
+}
+
+.balance {
+    font-size: 1.4em;
+    color: #032e42;
+    font-weight: bolder;
+}
+
+nav {
+    margin-bottom: 60px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    border: 2px solid #b9cbdd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+}
+
+button {
+    margin-top: 40px;
+    width: 200px;
+}
+
+.validation-error {
+    color: #bd0113;
+    font-weight: 500;
+    align-self: flex-start;
+}
+
+.error-highlight {
+    border: 1px solid #bd0113;
+}
+
+.active {
+    background-color: #68417f;
+    border-radius: 4px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.no-account {
+    padding: 20px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+td.user-balance {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
